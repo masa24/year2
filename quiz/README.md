@@ -1,2 +1,2 @@
 # quiz70
-![70](quiz70.png)
+![70](quiz70.jpeg)
