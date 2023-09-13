@@ -61,7 +61,7 @@ class ipv6machine():
 ipv6machine()
 ```
 
-![](71.png)
+![The code only produced 255**2 due to computer capacity](71.png)
 
 # 72
 ```.py
