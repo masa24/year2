@@ -127,7 +127,29 @@ routing()
 
 # 74
 ```.py
+class DataPackage:
+    def __init__(self, Mac_rx, IP_rx, Mac_sx, IP_sx, data):
+        self.Mac_rx = Mac_rx
+        self.IP_rx = IP_rx
+        self.Mac_sx = Mac_sx
+        self.IP_sx = IP_sx
+        self.data = data
 
+    def build_data(self):
+        result = []
+        c = len(self.data) // 4
+        leftover = len(self.data) % 4
+        for i in range(c):
+            temp_data = self.data[i*4:(i+1)*4]
+            result.append(f"{self.Mac_rx}|{self.IP_rx}|{self.Mac_sx}|{self.IP_sx}|{temp_data}")
+        if leftover:
+            temp_data = self.data[-leftover:]
+            result.append(f"{self.Mac_rx}|{self.IP_rx}|{self.Mac_sx}|{self.IP_sx}|{temp_data}")
+        return result
+
+
+temp_class = DataPackage("80:90:00:00:00:00","192.168.3.3","80:90:00:00:00:01","192.168.4.5","Hello World")
+print(temp_class.build_data())
 ```
 # 75
 ```.py
