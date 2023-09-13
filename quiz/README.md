@@ -28,7 +28,7 @@ def ipv4():
 ipv4()
 ```
 
-![](70.png)
+![The code only produced 255**2 due to computer capacity](70.png)
 
 # 71
 ```.py
@@ -61,7 +61,7 @@ class ipv6machine():
 ipv6machine()
 ```
 
-![The code only produced 255**2 due to computer capacity](71.png)
+![](71.png)
 
 # 72
 ```.py
