@@ -63,6 +63,7 @@ ipv6machine()
 ```
 
 ![](71.png)
+![](IMG_0060.png)
 
 # 72
 ```.py
@@ -93,6 +94,7 @@ mac()
 ```
 
 ![](72.png)
+![](IMG_0059.png)
 
 # 73
 ```.py
@@ -133,6 +135,8 @@ routing()
 ![](73_1.png)
 ![](73_2.png)
 
+![](IMG_0058.png)
+
 # 74
 ```.py
 class DataPackage:
@@ -161,6 +165,8 @@ print(temp_class.build_data())
 ```
 
 ![](74.png)
+
+![](IMG_0057.png)
 # 75
 ```.py
 class osi():
@@ -185,6 +191,8 @@ osi()
 ```
 
 ![](75.png)
+
+![](IMG_0056.png)
 # 76
 ```.py
 x = []
@@ -203,6 +211,7 @@ print(v)
 ```
 
 ![](76.png)
+![](IMG_0055.png)
 # 77
 ```.py
 str = [i for i in input('input: ')]
@@ -220,6 +229,7 @@ else:
 
 ![](77.png)
 
+![](IMG_0054.png)
 # 78
 ```.py
 class firewall():
@@ -247,3 +257,5 @@ boi2 = firewall("010101100110101111110111001111")
 print(boi2.layer4())
 ```
 ![](78.png)
+
+![](IMG_0053.png)
