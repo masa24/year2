@@ -28,7 +28,7 @@ def ipv4():
 ipv4()
 ```
 
-![]()
+![](70.png)
 
 # 71
 ```.py
@@ -61,6 +61,8 @@ class ipv6machine():
 ipv6machine()
 ```
 
+![](71.png)
+
 # 72
 ```.py
 from random import randint
@@ -88,6 +90,8 @@ class mac():
         return print(list)
 mac()
 ```
+
+![](72.png)
 
 # 73
 ```.py
@@ -125,6 +129,9 @@ class routing():
 routing()
 ```
 
+![](73_1.png)
+![](73_2.png)
+
 # 74
 ```.py
 class DataPackage:
@@ -151,6 +158,8 @@ class DataPackage:
 temp_class = DataPackage("80:90:00:00:00:00","192.168.3.3","80:90:00:00:00:01","192.168.4.5","Hello World")
 print(temp_class.build_data())
 ```
+
+![](74.png)
 # 75
 ```.py
 class osi():
@@ -173,6 +182,8 @@ class osi():
 
 osi()
 ```
+
+![](75.png)
 # 76
 ```.py
 x = []
@@ -190,6 +201,7 @@ for i in range(len(x)//3):
 print(v)
 ```
 
+![](76.png)
 # 77
 ```.py
 str = [i for i in input('input: ')]
@@ -204,3 +216,5 @@ if (c%2 == 0 and par == '1') or (c%2 == 1 and par == '0'):
 else:
     print(False)
 ```
+
+![](77.png)
