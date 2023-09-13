@@ -29,6 +29,7 @@ ipv4()
 ```
 
 ![The code only produced 255**2 due to computer capacity](70.png)
+![](quiz70.1.jpeg)
 
 # 71
 ```.py
